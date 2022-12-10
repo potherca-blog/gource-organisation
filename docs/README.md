@@ -8,13 +8,17 @@ Although gource is easy to use when called for a single repository, it can be a 
 
 This guide will show you how to create an organisation-wide gource animation, both an all-hands overview, and individual videos per contributor.
 
-- 📄 **[Getting Gource](01.getting.md)**
+- ### 📄 [Getting Gource](01.getting.md)
   - [Installing Gource](01.getting.md#installing-gource)
     - [On Linux](01.getting.md#on-linux)
     - [On macOS](01.getting.md#on-macos)
     - [On Windows](01.getting.md#on-windows)
   - [Using Docker](01.getting.md#using-docker)
   - [Install from source](01.getting.md#install-from-source)
+
+- ### Creating Logs
+  - Preparations
+    - 📄 [Cloning all repositories](02.logs.before.repos.md)
 
 To keep things clearly arranged, the following directory structure is used:
 
