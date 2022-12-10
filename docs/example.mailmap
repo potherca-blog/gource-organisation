@@ -1,0 +1,43 @@
+# ==============================================================================
+# The .mailmap feature is used to coalesce together commits by the same person
+# in the (short)log, where their name and/or email address was spelled differently.
+#
+# In the simple form, each line in the file consists of the canonical real name
+# of an author, whitespace, and an email address used in the commit (enclosed by
+# < and >) to map to the name.
+#
+#       Proper Name <commit@email.xx>
+#
+# Other examples:
+#
+# <proper@email.xx> <commit@email.xx>               # replace only email
+# Proper Name <proper@email.xx> <commit@email.xx>   # replace both name and email
+# ==============================================================================
+
+# ==============================================================================
+# Canonical Email Addresses
+#
+# These are all contributors to this repository as they SHOULD be listed.
+# ------------------------------------------------------------------------------
+Zé Povinho      <ze-povinho@example.com>
+Ben Peachey     <github@pother.ca>
+# ==============================================================================
+
+# ==============================================================================
+# Other Email addresses
+# ------------------------------------------------------------------------------
+Zé Povinho      <ze-povinho@example.com>    <195757@users.noreply.github.com>
+Zé Povinho      <ze-povinho@example.com>    <another@example.com>
+Ben Peachey     <github@pother.ca>          <potherca@gmail.com>
+Ben Peachey     <github@pother.ca>          <potherca@hotmail.com>
+Ben Peachey     <github@pother.ca>          <potherca@users.noreply.github.com>
+Ben Peachey     <github@pother.ca>          <Potherca@users.noreply.github.com>
+# ==============================================================================
+
+# ==============================================================================
+# Unknown user
+# ------------------------------------------------------------------------------
+Unknown         <unknown@example.com>       <1234567890@users.noreply.github.com>
+# ==============================================================================
+
+#EOF
