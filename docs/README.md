@@ -16,6 +16,26 @@ This guide will show you how to create an organisation-wide gource animation, bo
   - [Using Docker](01.getting.md#using-docker)
   - [Install from source](01.getting.md#install-from-source)
 
+To keep things clearly arranged, the following directory structure is used:
+
+```
+project/
+  ├── avatars/
+  │   ├── ...
+  │   └── default.png*
+  ├── logs/             <-- To be filled by the script
+  ├── repos/
+  │   ├── ...
+  │   └── repository-name/
+  ├── captions.txt
+  ├── deprecated-repos.txt
+  ├── gource.config
+  ├── logo.png
+  └── .mailmap
+
+* = or default.jpg
+```
+
 [^1]: Some examples form the [Custom Log Format page](https://github.com/acaudwell/Gource/wiki/Custom-Log-Format) are
 Bugzilla, DocuWiki, JIRA, MediaWiki but there are also visualizations
 of [the COVID19 Corona virus](https://github.com/sulmar/gource-covid19).
