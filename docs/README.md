@@ -19,6 +19,10 @@ This guide will show you how to create an organisation-wide gource animation, bo
 - ### Creating Logs
   - Preparations
     - 📄 [Cloning all repositories](02.logs.before.repos.md)
+    - 📄 [Adding a `.mailmap` file](03.logs.before.mailmap.md)
+      - [Creating a `.mailmap` file](03.logs.before.mailmap.md#creating-a-mailmap-file)
+      - [Checking the `.mailmap` file](03.logs.before.mailmap.md#checking-the-mailmap-file)
+      - [Using the `.mailmap` file](03.logs.before.mailmap.md#using-the-mailmap-file)
 
 To keep things clearly arranged, the following directory structure is used:
 
