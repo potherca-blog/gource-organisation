@@ -25,6 +25,11 @@ This guide will show you how to create an organisation-wide gource animation, bo
       - [Using the `.mailmap` file](03.logs.before.mailmap.md#using-the-mailmap-file)
   - 📄 [Generating a Gource log file](04.logs.creating.md)
     - [Generating log files for all repositories](04.logs.creating.md#generating-log-files-for-all-repositories)
+  - 📄 [Cleaning up the log files](05.logs.after.cleanup.md)
+    - [Adding a common root](05.logs.after.cleanup.md#adding-a-common-root)
+    - [Removing submodule / subtree](05.logs.after.cleanup.md#removing-submodule--subtree)
+    - [Removing third-party code](05.logs.after.cleanup.md#removing-third-party-code)
+    - [Dealing with deprecated repositories](05.logs.after.cleanup.md#dealing-with-deprecated-repositories)
 
 To keep things clearly arranged, the following directory structure is used:
 
@@ -33,10 +38,18 @@ project/
   ├── avatars/
   │   ├── ...
   │   └── default.png*
-  ├── logs/             <-- To be filled by the script
+  ├── logs/
+  │   ├── clean/
+  │   ├── full/               <-- To be filled by gource
+  │   ├── with-paths-ignored/
+  │   ├── with-root/
+  │   ├── ignore-paths.txt
+  │   └── ignore-vendors.txt
   ├── repos/
   │   ├── ...
   │   └── repository-name/
+  ├── videos/           <-- To be filled by gource
+  │   └── user/
   ├── captions.txt
   ├── deprecated-repos.txt
   ├── gource.config
