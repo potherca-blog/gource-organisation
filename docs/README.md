@@ -30,6 +30,7 @@ This guide will show you how to create an organisation-wide gource animation, bo
     - [Removing submodule / subtree](05.logs.after.cleanup.md#removing-submodule--subtree)
     - [Removing third-party code](05.logs.after.cleanup.md#removing-third-party-code)
     - [Dealing with deprecated repositories](05.logs.after.cleanup.md#dealing-with-deprecated-repositories)
+  - 📄 [Combining the log files](06.logs.after.combine.md)
 
 To keep things clearly arranged, the following directory structure is used:
 
@@ -43,6 +44,7 @@ project/
   │   ├── full/               <-- To be filled by gource
   │   ├── with-paths-ignored/
   │   ├── with-root/
+  │   ├── combined.log
   │   ├── ignore-paths.txt
   │   └── ignore-vendors.txt
   ├── repos/
