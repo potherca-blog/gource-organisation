@@ -35,6 +35,11 @@ This guide will show you how to create an organisation-wide gource animation, bo
 - ### Calling Gource
   - Preparations
     - 📄 [Creating avatars](07.calling.before.avatars.md)
+    - 📄 [Creating a Gource caption file](08.calling.before.captions.md)
+    - 📄 [Creating Gource configuration](09.calling.before.configuration.md)
+      - [The caption file format](09.calling.before.configuration.md#the-caption-file-format)
+      - [Generating a caption file](09.calling.before.configuration.md#generating-a-caption-file)
+      - [Manually adding entries to the caption file](09.calling.before.configuration.md#manually-adding-entries-to-the-caption-file)
 
 To keep things clearly arranged, the following directory structure is used:
 
