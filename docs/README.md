@@ -32,13 +32,17 @@ This guide will show you how to create an organisation-wide gource animation, bo
     - [Dealing with deprecated repositories](05.logs.after.cleanup.md#dealing-with-deprecated-repositories)
   - 📄 [Combining the log files](06.logs.after.combine.md)
 
+- ### Calling Gource
+  - Preparations
+    - 📄 [Creating avatars](07.calling.before.avatars.md)
+
 To keep things clearly arranged, the following directory structure is used:
 
 ```
 project/
   ├── avatars/
   │   ├── ...
-  │   └── default.png*
+  │   └── default.png (or default.jpg)
   ├── logs/
   │   ├── clean/
   │   ├── full/               <-- To be filled by gource
@@ -58,7 +62,6 @@ project/
   ├── logo.png
   └── .mailmap
 
-* = or default.jpg
 ```
 
 [^1]: Some examples form the [Custom Log Format page](https://github.com/acaudwell/Gource/wiki/Custom-Log-Format) are
